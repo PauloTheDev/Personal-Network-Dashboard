@@ -34,13 +34,13 @@ def checkMainRouter():
     if mainRouter_statusCode == 200:
         st.image('imgs/ac121-states/ac121.png', width=150)
     else:
-        st.image('imgs/ac121-states/ac121black.png', width=150)
+        st.image('imgs/ac121-states/blackac121.png', width=150)
 
 def checkSecondRouter():
-    if mainRouter_statusCode == 200:
+    if secondRouter_statusCode == 200:
         st.image('imgs/ac12g-states/ac12g.png', width=150)
     else:
-        st.image('imgs/ac12g-states/ac121black.png', width=150)
+        st.image('imgs/ac12g-states/ac12gblack.png', width=150)
 
         
 
